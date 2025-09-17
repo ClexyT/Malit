@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style'
+import { useEffect } from 'react'
 
 // components
 import { Navbar, Hero, Stats, Business, ExampleMenu, ExampleMenu2, CTA, Footer } from './components'
@@ -8,8 +9,8 @@ import { Navbar, Hero, Stats, Business, ExampleMenu, ExampleMenu2, CTA, Footer }
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
-AOS.init()
 
+useEffect(() => { AOS.init(); }, [])
 const App = () => {
   const renderNavbar = () => (
     <div className={` ${styles.flexCenter}`}>
