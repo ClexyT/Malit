@@ -1,7 +1,6 @@
 import { exampleMenu } from '../assets'
 import styles, { layout } from '../style'
 
-import React from 'react'
 
 const ExampleMenu = () => (
   <div className='bg-slate-100 dark:bg-slate-900'>
