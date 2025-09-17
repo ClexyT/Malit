@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Fallback para SPA (React Router refrescos profundos)
+      # Fallback para SPA (si usas BrowserRouter). Con HashRouter no hace daño.
       - name: Create 404.html fallback
         run: cp dist/index.html dist/404.html
 
