@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <nav className='flex items-center z-10 fixed top-0 w-full bg-slate-200 dark:bg-slate-900 p-5'>
       <div className='flex inset-x-0'>
-        <img src={logo} alt='Malit' className='dark:invert transition-all mr-[55%]' />
+        <img src={logo} alt='Malit' className='dark:invert transition-all mr-[90%] relative group' />
 
         <div className='hidden sm:flex sm:w-1/3 justify-center'>
           {/* Lista de navegación */}

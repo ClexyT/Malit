@@ -31,5 +31,17 @@
     "extends": [
       "./node_modules/standard/eslintrc.json"
     ]
-  }
+  },
+  "description": "<!-- Please update value in the {}  -->",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JHUMBERTTO/Malit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JHUMBERTTO/Malit/issues"
+  },
+  "homepage": "https://github.com/JHUMBERTTO/Malit#readme"
 }
