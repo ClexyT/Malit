@@ -1,16 +1,16 @@
+
 import React from 'react'
-import { Route, Routes } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import SOON from '../SOON'
 import App from '../App'
 
-const CustomRoutes = () => {
+export default function CustomRoutes() {
   return (
-    <Routes>
-      <Route path='/experimental_features_malit' element={<App />} />
-      <Route path='/' element={<SOON />} />
-    </Routes>
-
+    <BrowserRouter basename="/Malit">
+      <Routes>
+        <Route path="/" element={<SOON />} />
+        <Route path="/experimental_features_malit" element={<App />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
-
-export default CustomRoutes
