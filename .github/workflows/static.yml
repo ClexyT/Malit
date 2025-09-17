@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy static site to Pages
 
 on:
   push:
@@ -30,8 +30,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./build   # 👈 publica la carpeta build/
-
+          # Upload entire repository
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
