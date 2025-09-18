@@ -55,22 +55,6 @@ const Footer = () => {
                 <RiLinkedinBoxFill size='25' />
               </a>
             </div>
-            <div className='bg-slate-800 dark:bg-slate-100 sm:w-[1px] sm:h-[50px] w-[20rem] h-[1px]' />
-            <div className='flex items-center space-x-2'>
-              <p className='cursor-default'>Jorge Garcia</p>
-              <a target='_blank' rel='noreferrer' href='https://www.instagram.com/j.humbertto/' className={`invert dark:invert-0 ${color}`}>
-                <RiInstagramLine size='25' />
-              </a>
-              <a target='_blank' rel='noreferrer' href='https://github.com/JHUMBERTTO' className={`invert dark:invert-0 ${color}`}>
-                <RiGithubFill size='25' />
-              </a>
-              <a target='_blank' rel='noreferrer' href='https://twitter.com/Jhumb3rto' className={`invert dark:invert-0 ${color}`}>
-                <RiTwitterXFill size='25' />
-              </a>
-              <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/jorge-garcia-9ab602225/' className={`invert dark:invert-0 ${color}`}>
-                <RiLinkedinBoxFill size='25' />
-              </a>
-            </div>
           </div>
         </div>
         <div className='mt-4 cursor-default text-slate-800 dark:text-slate-100 text-center flex justify-center items-center sm:text-left'>
